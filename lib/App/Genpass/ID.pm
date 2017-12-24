@@ -11,7 +11,7 @@ our %SPEC;
 
 $SPEC{genpass} = {
     v => 1.1,
-    summary => 'Generate Indonesian password',
+    summary => 'Generate password from combination of Indonesian words',
     args => {
         num => {
             schema => ['int*', min=>1],
