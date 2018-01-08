@@ -1,3 +1,9 @@
+0.004   2018-01-08 (PERLANCAR) (unreleased)
+
+        - Rename dist from App-Genpass-ID to App-genpw-id. Now based on
+          App::genpw.
+
+
 0.003   2018-01-02 (PERLANCAR)
 
 	- Use App::Genpass::WordList as base (add option 'patterns').
