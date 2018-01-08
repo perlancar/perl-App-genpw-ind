@@ -1,4 +1,4 @@
-0.004   2018-01-08 (PERLANCAR) (unreleased)
+0.004   2018-01-08 (PERLANCAR)
 
         - Rename dist from App-Genpass-ID to App-genpw-id. Now based on
           App::genpw.
