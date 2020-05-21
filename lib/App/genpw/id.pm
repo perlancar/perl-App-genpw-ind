@@ -24,6 +24,7 @@ sub genpw {
     my %args = @_;
 
     App::genpw::wordlist::genpw(
+        (action => $args{action})     x !!defined($args{action}),
         (num => $args{num})           x !!defined($args{num}),
         (patterns => $args{patterns}) x !!defined($args{patterns}),
         wordlists => ['ID::KBBI'],
