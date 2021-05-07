@@ -1,6 +1,8 @@
-package App::genpw::id;
+package App::genpw::ind;
 
+# AUTHORITY
 # DATE
+# DIST
 # VERSION
 
 use 5.010001;
@@ -36,4 +38,4 @@ sub genpw {
 
 =head1 SYNOPSIS
 
-See the included script L<genpwxs-id>.
+See the included script L<genpw-ind>.
